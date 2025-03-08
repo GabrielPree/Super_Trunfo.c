@@ -56,11 +56,11 @@ void calculos() {
     //carta 01
     densidade = (float)populacao/area;
     pibpercapita = (float)pib / populacao; // usei casting para garantir a precisão e evitar perda de dados
-    superpoder = (populacao + ponto + pib + area + pibpercapita) / densidade;
+    superpoder = (double)(populacao + ponto + pib + area + pibpercapita) / densidade;
     //carta 02
     densidade2 = (float)populacao2/area2;
     pibpercapita2 = (float)pib2 / populacao2;
-    superpoder2 = (populacao2 + ponto2 + pib2 + area2 + pibpercapita2) / densidade2;
+    superpoder2 = (double)(populacao2 + ponto2 + pib2 + area2 + pibpercapita2) / densidade2;
 }
 
 void exibirDados() {
