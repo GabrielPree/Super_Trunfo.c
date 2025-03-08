@@ -90,9 +90,23 @@ void exibirDados() {
     printf("PIB percapta: %.2lf\n", pibpercapita2);
     printf("Super Poder: %.2f\n", superpoder2);
 }
+
+void comparacao() {
+    printf("\n** Comparações das Cartas **\n");
+    printf("O resultado 1 é para a carta 01 e 0 para a carta 02\n");
+    printf("População: %d\n", populacao > populacao2);
+    printf("Área: %d\n", area > area2);
+    printf("PIB: %d\n", pib > pib2);
+    printf("Pontos Turísticos: %d\n", ponto > ponto2);
+    printf("Densidade Populacional: %d\n", densidade < densidade2);
+    printf("PIB per Capita: %d\n", pibpercapita > pibpercapita2);
+    printf("Super Poder: %d\n", superpoder > superpoder2);
+}
+
 int main() {
     entradaDados();
     calculos();
-    exibirDados();   
+    exibirDados();
+    comparacao();   
     return 0;
 }
