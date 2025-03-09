@@ -93,7 +93,7 @@ void exibirDados() {
 
 void comparacao() {
     printf("\n** Comparações das Cartas **\n");
-    printf("O resultado 1 é para a carta 01 e 0 para a carta 02\n");
+    printf("*O Vencedor é igual a 1 para carta 01 e 0 para a carta 02*\n");
     printf("População: %d\n", populacao > populacao2);
     printf("Área: %d\n", area > area2);
     printf("PIB: %d\n", pib > pib2);
