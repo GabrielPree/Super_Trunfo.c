@@ -6,7 +6,7 @@
     unsigned int populacao;
     int ponto;
     float area, densidade;
-    double pib, pibpercapita, superpoder;
+    double pib, pibpercapita, superpoder;//utilizei double para garantir a precisão pois o pib é um valor muito grande
 //variaveis carta 02
     char nome2[50], estado2[50], Codigo2[4];
     unsigned int populacao2;
