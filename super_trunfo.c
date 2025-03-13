@@ -95,7 +95,7 @@ void exibirDados() {
 
 void comparacao() {
     printf("\n** Comparações das Cartas **\n");
-    printf("1:nome da cidade \n");
+    printf("\n1:nome da cidade \n");
     printf("2:População\n");
     printf("3:Área\n");
     printf("4:PIB\n");
