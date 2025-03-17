@@ -65,6 +65,8 @@ void comparacao() {
     printf("3:PIB\n");
     printf("4:Pontos Turísticos\n");
     printf("5:Densidade Populacional\n");
+    printf("6:PIB per capita\n");
+    printf("7:Super Poder\n");
     printf("Digite o numero da caracteristica que deseja comparar: ");
     scanf("%d", &caracteristica);
 
@@ -180,6 +182,50 @@ void comparacao() {
         carta2 ++;
     }
     break;
+    //comparação do PIB per capita
+    case 6:
+    if(pibpercapita > pibpercapita2) {
+        printf("\nPIB per capita da carta 1 %s: %.2lf\n", nome, pibpercapita);
+        printf("PIB per capita da carta 2 %s: %.2lf\n", nome2, pibpercapita2);
+        printf("Resultado: Carta 1 %s venceu e ganhou 1 ponto!\n", nome);
+        carta1 ++;
+    }
+    else if (pibpercapita == pibpercapita2) {
+        printf("\nPIB per capita da carta 1 %s: %.2lf\n", nome, pibpercapita);
+        printf("PIB per capita da carta 2 %s: %.2lf\n", nome2, pibpercapita2);
+        printf("Resultado: Empate as duas cartas ganham 1 ponto!\n");
+        carta1 ++;
+        carta2 ++;
+    }
+    else {
+        printf("\nPIB per capita da carta 1 %s: %.2lf\n", nome, pibpercapita);
+        printf("PIB per capita da carta 2 %s: %.2lf\n", nome2, pibpercapita2);
+        printf("Resultado: Carta 2 %s venceu e ganhou 1 ponto!\n", nome2);
+        carta2 ++;
+    }
+    break;
+    //comparação do super poder
+    case 7:
+    if(superpoder > superpoder2) {
+        printf("\nSuper Poder da carta 1 %s: %.2f\n", nome, superpoder);
+        printf("Super Poder da carta 2 %s: %.2f\n", nome2, superpoder2);
+        printf("Resultado: Carta 1 %s venceu e ganhou 1 ponto!\n", nome);
+        carta1 ++;
+    }
+    else if (superpoder == superpoder2) {
+        printf("\nSuper Poder da carta 1 %s: %.2f\n", nome, superpoder);
+        printf("Super Poder da carta 2 %s: %.2f\n", nome2, superpoder2);
+        printf("Resultado: Empate as duas cartas ganham 1 ponto!\n");
+        carta1 ++;
+        carta2 ++;
+    }
+    else {
+        printf("\nSuper Poder da carta 1 %s: %.2f\n", nome, superpoder);
+        printf("Super Poder da carta 2 %s: %.2f\n", nome2, superpoder2);
+        printf("Resultado: Carta 2 %s venceu e ganhou 1 ponto!\n", nome2);
+        carta2 ++;
+    }
+    break;
     default:
         printf("\nOpção invalida!\n");
         return;
@@ -192,6 +238,8 @@ void comparacao() {
     printf("3:PIB\n");
     printf("4:Pontos Turísticos\n");
     printf("5:Densidade Populacional\n");
+    printf("6:PIB per capita\n");
+    printf("7:Super Poder\n");
     printf("Digite o numero da caracteristica que deseja comparar: ");
     scanf("%d", &caracteristica2);
     if (caracteristica2 == caracteristica) {
@@ -305,6 +353,50 @@ void comparacao() {
         else {
             printf("\nDensidade da carta 1 %s: %.2f\n", nome, densidade);
             printf("Densidade da carta 2 %s: %.2f\n", nome2, densidade2);
+            printf("Resultado: Carta 2 %s venceu e ganhou 1 ponto!\n", nome2);
+            carta2 ++;
+        }
+        break;
+        //comparação do PIB per capita
+        case 6:
+        if(pibpercapita > pibpercapita2) {
+            printf("\nPIB per capita da carta 1 %s: %.2lf\n", nome, pibpercapita);
+            printf("PIB per capita da carta 2 %s: %.2lf\n", nome2, pibpercapita2);
+            printf("Resultado: Carta 1 %s venceu e ganhou 1 ponto!\n", nome);
+            carta1 ++;
+        }
+        else if (pibpercapita == pibpercapita2) {
+            printf("\nPIB per capita da carta 1 %s: %.2lf\n", nome, pibpercapita);
+            printf("PIB per capita da carta 2 %s: %.2lf\n", nome2, pibpercapita2);
+            printf("Resultado: Empate as duas cartas ganham 1 ponto!\n");
+            carta1 ++;
+            carta2 ++;
+        }
+        else {
+            printf("\nPIB per capita da carta 1 %s: %.2lf\n", nome, pibpercapita);
+            printf("PIB per capita da carta 2 %s: %.2lf\n", nome2, pibpercapita2);
+            printf("Resultado: Carta 2 %s venceu e ganhou 1 ponto!\n", nome2);
+            carta2 ++;
+        }
+        break;
+        //comparação do super poder
+        case 7:
+        if(superpoder > superpoder2) {
+            printf("\nSuper Poder da carta 1 %s: %.2f\n", nome, superpoder);
+            printf("Super Poder da carta 2 %s: %.2f\n", nome2, superpoder2);
+            printf("Resultado: Carta 1 %s venceu e ganhou 1 ponto!\n", nome);
+            carta1 ++;
+        }
+        else if (superpoder == superpoder2) {
+            printf("\nSuper Poder da carta 1 %s: %.2f\n", nome, superpoder);
+            printf("Super Poder da carta 2 %s: %.2f\n", nome2, superpoder2);
+            printf("Resultado: Empate as duas cartas ganham 1 ponto!\n");
+            carta1 ++;
+            carta2 ++;
+        }
+        else {
+            printf("\nSuper Poder da carta 1 %s: %.2f\n", nome, superpoder);
+            printf("Super Poder da carta 2 %s: %.2f\n", nome2, superpoder2);
             printf("Resultado: Carta 2 %s venceu e ganhou 1 ponto!\n", nome2);
             carta2 ++;
         }
