@@ -80,11 +80,13 @@ Digite o número de pontos turísticos da cidade: 30
 
 ** Comparações das Cartas **
 Escolha a primeira caracteristica que deseja comparar:
-1: População
-2: Área
-3: PIB
-4: Pontos Turísticos
-5: Densidade Populacional
+1:População
+2:Área
+3:PIB
+4:Pontos Turísticos
+5:Densidade Populacional
+6:PIB per capita
+7:Super Poder
 Digite o número da característica que deseja comparar: 2
 ```
 
@@ -97,11 +99,13 @@ Resultado: Carta 1 São Paulo venceu e ganhou 1 ponto!
 ### Entrada do Usuário
 ```
 Escolha a segunda caracteristica que deseja comparar: 
-1: População
-2: Área
-3: PIB
-4: Pontos Turísticos
-5: Densidade Populacional
+1:População
+2:Área
+3:PIB
+4:Pontos Turísticos
+5:Densidade Populacional
+6:PIB per capita
+7:Super Poder
 Digite o número da característica que deseja comparar: 3
 ```
 ### Saída do Programa
