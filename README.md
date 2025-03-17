@@ -44,14 +44,13 @@ Após inserir os dados, o programa irá fazer o cálculo e exibirá as informaç
 
 ### Menu de Comparação
 O jogador pode escolher um dos seguintes atributos para comparar:
-1. Nome da cidade (apenas exibição)
-2. População
-3. Área
-4. PIB
-5. Pontos turísticos
-6. Densidade populacional
+1. População
+2. Área
+3. PIB
+4. Pontos turísticos
+5. Densidade populacional
 
-O programa exibirá os valores das duas cidades para o atributo escolhido e informará qual cidade venceu ou se houve empate.
+O programa exibirá os valores das duas cidades para o atributo escolhido e informará qual cidade venceu ou se houve empate, no caso de vitoria 1 ponto para a carta no caso de empate ambas cartas ganham 1 ponto, lembrando que serão duas comparações.
 
 ---
 
@@ -80,23 +79,40 @@ Digite o PIB da cidade: 300500000000
 Digite o número de pontos turísticos da cidade: 30
 
 ** Comparações das Cartas **
-
-1: Nome da cidade
-2: População
-3: Área
-4: PIB
-5: Pontos Turísticos
-6: Densidade Populacional
+Escolha a primeira caracteristica que deseja comparar:
+1: População
+2: Área
+3: PIB
+4: Pontos Turísticos
+5: Densidade Populacional
 Digite o número da característica que deseja comparar: 2
 ```
 
 ### Saída do Programa
 ```
-População da Carta 1 São Paulo: 12325000
-população da Carta 2 Rio de Janeiro: 6748000
-Resultado: Carta 1 São Paulo venceu!
+População da carta 1 São Paulo: 12325000
+População da carta 2 Rio de Janeiro: 6748000
+Resultado: Carta 1 São Paulo venceu e ganhou 1 ponto!
 ```
+### Entrada do Usuário
+```
+Escolha a segunda caracteristica que deseja comparar: 
+1: População
+2: Área
+3: PIB
+4: Pontos Turísticos
+5: Densidade Populacional
+Digite o número da característica que deseja comparar: 3
+```
+### Saída do Programa
+```
+PIB da carta 1 São Paulo: 699280000000.00
+PIB da carta 2 Rio de Janeiro: 300500000000.00
+Resultado: Carta 1 São Paulo venceu e ganhou 1 ponto!
 
+** Resultado final **
+Carta 1: São Paulo venceu com 2 pontos!
+```
 ---
 
 ## Observações
