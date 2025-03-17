@@ -74,20 +74,20 @@ void comparacao() {
     if(populacao > populacao2) {
         printf("\nPopulação da carta 1 %s: %u\n", nome, populacao);
         printf("População da carta 2 %s: %u\n", nome2, populacao2);
-        printf("Resultado: Carta 1 %s venceu!\n", nome);
+        printf("Resultado: Carta 1 %s venceu e ganhou 1 ponto!\n", nome);
         carta1 ++;
     }
     else if (populacao == populacao2) {
         printf("\nPopulação da carta 1 %s: %u\n", nome, populacao);
         printf("População da carta 2 %s: %u\n", nome2, populacao2);
-        printf("Resultado: Empate!\n");
+        printf("Resultado: Empate as duas cartas ganham 1 ponto!\n");
         carta1 ++;
         carta2 ++;
     }
     else {
         printf("\nPopulação da carta 1 %s: %u\n", nome, populacao);
         printf("População da carta 2 %s: %u\n", nome2, populacao2);
-        printf("Resultado: Carta 2 %s venceu!\n", nome2);
+        printf("Resultado: Carta 2 %s venceu e ganhou 1 ponto!\n", nome2);
         carta2 ++;
     }
     
@@ -97,20 +97,20 @@ void comparacao() {
     if(area > area2) {
         printf("\nArea da carta 1 %s: %.2f\n", nome, area);
         printf("Area da carta 2 %s: %.2f\n", nome2, area2);
-        printf("Resultado: Carta 1 %s venceu!\n", nome);
+        printf("Resultado: Carta 1 %s venceu e ganhou 1 ponto!\n", nome);
         carta1 ++;
     }
     else if (area == area2) {
         printf("\nArea da carta 1 %s: %.2f\n", nome, area);
         printf("Area da carta 2 %s: %.2f\n", nome2, area2);
-        printf("Resultado: Empate!\n");
+        printf("Resultado: Empate as duas cartas ganham 1 ponto!\n");
         carta1 ++;
         carta2 ++;
     }
     else {
         printf("\nArea da carta 1 %s: %.2f\n", nome, area);
         printf("Area da carta 2 %s: %.2f\n", nome2, area2);
-        printf("Resultado: Carta 2 %s venceu!\n", nome2);
+        printf("Resultado: Carta 2 %s venceu e ganhou 1 ponto!\n", nome2);
         carta2 ++;
     }
     break;
@@ -119,20 +119,20 @@ void comparacao() {
     if(pib > pib2) {
         printf("\nPIB da carta 1 %s: %.2lf\n", nome, pib);
         printf("PIB da carta 2 %s: %.2lf\n", nome2, pib2);
-        printf("Resultado: Carta 1 %s venceu!\n", nome);
+        printf("Resultado: Carta 1 %s venceu e ganhou 1 ponto!\n", nome);
         carta1 ++;
     }
     else if (pib == pib2) {
         printf("\nPIB da carta 1 %s: %.2lf\n", nome, pib);
         printf("PIB da carta 2 %s: %.2lf\n", nome2, pib2);
-        printf("Resultado: Empate!\n");
+        printf("Resultado: Empate as duas cartas ganham 1 ponto!\n");
         carta1 ++;
         carta2 ++;
     }
     else {
         printf("\nPIB da carta 1 %s: %.2lf\n", nome, pib);
         printf("PIB da carta 2 %s: %.2lf\n", nome2, pib2);
-        printf("Resultado: Carta 2 %s venceu!\n", nome2);
+        printf("Resultado: Carta 2 %s venceu e ganhou 1 ponto!\n", nome2);
         carta2 ++;
     }
     break;
@@ -141,20 +141,20 @@ void comparacao() {
     if(ponto > ponto2) {
         printf("\nPontos turisticos da carta 1 %s: %d\n", nome, ponto);
         printf("Pontos turisticos da carta 2 %s: %d\n", nome2, ponto2);
-        printf("Resultado: Carta 1 %s venceu!\n", nome);
+        printf("Resultado: Carta 1 %s venceu e ganhou 1 ponto!\n", nome);
         carta1 ++;
     }
     else if (ponto == ponto2) {
         printf("\nPontos turisticos da carta 1 %s: %d\n", nome, ponto);
         printf("Pontos turisticos da carta 2 %s: %d\n", nome2, ponto2);
-        printf("Resultado: Empate!\n");
+        printf("Resultado: Empate as duas cartas ganham 1 ponto!\n");
         carta1 ++;
         carta2 ++;
     }
     else {
         printf("\nPontos turisticos da carta 1 %s: %d\n", nome, ponto);
         printf("Pontos turisticos da carta 2 %s: %d\n", nome2, ponto2);
-        printf("Resultado: Carta 2 %s venceu!\n", nome2);
+        printf("Resultado: Carta 2 %s venceu e ganhou 1 ponto!\n", nome2);
         carta2 ++;
     }
     break;
@@ -163,20 +163,20 @@ void comparacao() {
     if(densidade < densidade2) {
         printf("\nDensidade da carta 1 %s: %.2f\n", nome, densidade);
         printf("Densidade da carta 2 %s: %.2f\n", nome2, densidade2);
-        printf("Resultado: Carta 1 %s venceu!\n", nome);
+        printf("Resultado: Carta 1 %s venceu e ganhou 1 ponto!\n", nome);
         carta1 ++;
     }
     else if (densidade == densidade2) {
         printf("\nDensidade da carta 1 %s: %.2f\n", nome, densidade);
         printf("Densidade da carta 2 %s: %.2f\n", nome2, densidade2);
-        printf("Resultado: Empate!\n");
+        printf("Resultado: Empate as duas cartas ganham 1 ponto!\n");
         carta1 ++;
         carta2 ++;
     }
     else {
         printf("\nDensidade da carta 1 %s: %.2f\n", nome, densidade);
         printf("Densidade da carta 2 %s: %.2f\n", nome2, densidade2);
-        printf("Resultado: Carta 2 %s venceu!\n", nome2);
+        printf("Resultado: Carta 2 %s venceu e ganhou 1 ponto!\n", nome2);
         carta2 ++;
     }
     break;
@@ -204,20 +204,20 @@ void comparacao() {
         if(populacao > populacao2) {
             printf("\nPopulação da carta 1 %s: %u\n", nome, populacao);
             printf("População da carta 2 %s: %u\n", nome2, populacao2);
-            printf("Resultado: Carta 1 %s venceu!\n", nome);
+            printf("Resultado: Carta 1 %s venceu e ganhou 1 ponto!\n", nome);
             carta1 ++;
         }
         else if (populacao == populacao2) {
             printf("\nPopulação da carta 1 %s: %u\n", nome, populacao);
             printf("População da carta 2 %s: %u\n", nome2, populacao2);
-            printf("Resultado: Empate!\n");
+            printf("Resultado: Empate as duas cartas ganham 1 ponto!\n");
             carta1 ++;
             carta2 ++;
         }
         else {
             printf("\nPopulação da carta 1 %s: %u\n", nome, populacao);
             printf("População da carta 2 %s: %u\n", nome2, populacao2);
-            printf("Resultado: Carta 2 %s venceu!\n", nome2);
+            printf("Resultado: Carta 2 %s venceu e ganhou 1 ponto!\n", nome2);
             carta2 ++;
         }      
         break;
@@ -226,7 +226,7 @@ void comparacao() {
         if(area > area2) {
             printf("\nArea da carta 1 %s: %.2f\n", nome, area);
             printf("Area da carta 2 %s: %.2f\n", nome2, area2);
-            printf("Resultado: Carta 1 %s venceu!\n", nome);
+            printf("Resultado: Carta 1 %s venceu e ganhou 1 ponto!\n", nome);
             carta1 ++;
         }
         else if (area == area2) {
@@ -239,7 +239,7 @@ void comparacao() {
         else {
             printf("\nArea da carta 1 %s: %.2f\n", nome, area);
             printf("Area da carta 2 %s: %.2f\n", nome2, area2);
-            printf("Resultado: Carta 2 %s venceu!\n", nome2);
+            printf("Resultado: Carta 2 %s venceu e ganhou 1 ponto!\n", nome2);
             carta2 ++;
         }
         break;
@@ -248,20 +248,20 @@ void comparacao() {
         if(pib > pib2) {
             printf("\nPIB da carta 1 %s: %.2lf\n", nome, pib);
             printf("PIB da carta 2 %s: %.2lf\n", nome2, pib2);
-            printf("Resultado: Carta 1 %s venceu!\n", nome);
+            printf("Resultado: Carta 1 %s venceu e ganhou 1 ponto!\n", nome);
             carta1 ++;
         }
         else if (pib == pib2) {
             printf("\nPIB da carta 1 %s: %.2lf\n", nome, pib);
             printf("PIB da carta 2 %s: %.2lf\n", nome2, pib2);
-            printf("Resultado: Empate!\n");
+            printf("Resultado: Empate as duas cartas ganham 1 ponto!\n");
             carta1 ++;
             carta2 ++;
         }
         else {
             printf("\nPIB da carta 1 %s: %.2lf\n", nome, pib);
             printf("PIB da carta 2 %s: %.2lf\n", nome2, pib2);
-            printf("Resultado: Carta 2 %s venceu!\n", nome2);
+            printf("Resultado: Carta 2 %s venceu e ganhou 1 ponto!\n", nome2);
             carta2 ++;
         }
         break;
@@ -270,20 +270,20 @@ void comparacao() {
         if(ponto > ponto2) {
             printf("\nPontos turisticos da carta 1 %s: %d\n", nome, ponto);
             printf("Pontos turisticos da carta 2 %s: %d\n", nome2, ponto2);
-            printf("Resultado: Carta 1 %s venceu!\n", nome);
+            printf("Resultado: Carta 1 %s venceu e ganhou 1 ponto!\n", nome);
             carta1 ++;
         }
         else if (ponto == ponto2) {
             printf("\nPontos turisticos da carta 1 %s: %d\n", nome, ponto);
             printf("Pontos turisticos da carta 2 %s: %d\n", nome2, ponto2);
-            printf("Resultado: Empate!\n");
+            printf("Resultado: Empate as duas cartas ganham 1 ponto!\n");
             carta1 ++;
             carta2 ++;
         }
         else {
             printf("\nPontos turisticos da carta 1 %s: %d\n", nome, ponto);
             printf("Pontos turisticos da carta 2 %s: %d\n", nome2, ponto2);
-            printf("Resultado: Carta 2 %s venceu!\n", nome2);
+            printf("Resultado: Carta 2 %s venceu e ganhou 1 ponto!\n", nome2);
             carta2 ++;
         }
         break;
@@ -292,20 +292,20 @@ void comparacao() {
         if(densidade < densidade2) {
             printf("\nDensidade da carta 1 %s: %.2f\n", nome, densidade);
             printf("Densidade da carta 2 %s: %.2f\n", nome2, densidade2);
-            printf("Resultado: Carta 1 %s venceu!\n", nome);
+            printf("Resultado: Carta 1 %s venceu e ganhou 1 ponto!\n", nome);
             carta1 ++;
         }
         else if (densidade == densidade2) {
             printf("\nDensidade da carta 1 %s: %.2f\n", nome, densidade);
             printf("Densidade da carta 2 %s: %.2f\n", nome2, densidade2);
-            printf("Resultado: Empate!\n");
+            printf("Resultado: Empate as duas cartas ganham 1 ponto!\n");
             carta1 ++;
             carta2 ++;
         }
         else {
             printf("\nDensidade da carta 1 %s: %.2f\n", nome, densidade);
             printf("Densidade da carta 2 %s: %.2f\n", nome2, densidade2);
-            printf("Resultado: Carta 2 %s venceu!\n", nome2);
+            printf("Resultado: Carta 2 %s venceu e ganhou 1 ponto!\n", nome2);
             carta2 ++;
         }
         break;
