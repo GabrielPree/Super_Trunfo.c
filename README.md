@@ -66,7 +66,7 @@ Digite o código do estado: A01
 Digite o nome da cidade: São Paulo
 Digite a população da cidade: 12325000
 Digite a área da cidade: 1521.11
-Digite o PIB da cidade: 699280000000
+Digite o PIB da cidade: 699.28
 Digite o número de pontos turísticos da cidade: 50
 
 Digite as Informações da Carta 2
@@ -75,7 +75,7 @@ Digite o código do estado: B02
 Digite o nome da cidade: Rio de Janeiro
 Digite a população da cidade: 6748000
 Digite a área da cidade: 1200.25
-Digite o PIB da cidade: 300500000000
+Digite o PIB da cidade: 300.50
 Digite o número de pontos turísticos da cidade: 30
 
 ** Comparações das Cartas **
@@ -110,8 +110,8 @@ Digite o número da característica que deseja comparar: 3
 ```
 ### Saída do Programa
 ```
-PIB da carta 1 São Paulo: 699280000000.00
-PIB da carta 2 Rio de Janeiro: 300500000000.00
+PIB da carta 1 São Paulo: 699.28 Bilhões
+PIB da carta 2 Rio de Janeiro: 300.50 Bilhões
 Resultado: Carta 1 São Paulo venceu e ganhou 1 ponto!
 
 ** Resultado final **
